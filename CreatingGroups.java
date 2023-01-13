@@ -5,7 +5,8 @@ import java.util.Map;
 public class FileGrouping {
 
     public static void main(String[] args) {
-        File folder = new File("path/to/folder");
+        // Groups files of a certain folder, in this case would be "Downloads
+        File folder = new File("User/Desktop/Downloads");
         File[] listOfFiles = folder.listFiles();
 
         Map<String, Integer> map = new HashMap<>();
