@@ -24,7 +24,7 @@ public class FileGrouping {
                 }
             }
         }
-
+        // Creates groups depending on the names
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("Group: " + entry.getKey() + " - Count: " + entry.getValue());
         }
